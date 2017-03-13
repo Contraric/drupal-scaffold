@@ -297,8 +297,8 @@ EOF;
       'excludes' => [],
       'includes' => [],
       'initial' => [],
-      'source' => 'http://cgit.drupalcode.org/drupal/plain/{path}?h={version}',
-      // Github: https://raw.githubusercontent.com/drupal/drupal/{version}/{path}
+      'source' => 'https://raw.githubusercontent.com/drupal/drupal/{version}/{path}',
+      // Drupal: http://cgit.drupalcode.org/drupal/plain/{path}?h={version}
     ];
     return $options;
   }
